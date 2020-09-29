@@ -51,4 +51,4 @@
 
 ---
 
-Licensed under the GPLv3 license.
+###### Licensed under the __GPLv3__ license
