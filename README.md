@@ -21,12 +21,14 @@ Menu driven command line utility written in Node.js to generate a professional R
 * [License](#license)
 
 #### Requirements
-    node
-    npm
-
+```
+node
+npm
+```
 #### Installation
-    npm i
-
+```
+npm i
+```
 <h6><p align="right">:cyclone: Click the image(s) below to view the live <a href="https://MBrassey.github.io/READMEGenesis/">webapplication</a></p></h6>
 
 ```
@@ -46,4 +48,4 @@ Contact me at [matt@brassey.io](mailto:matt@brassey.io) with any questions or co
 
 ---
 
-#### Licensed under the __GPLv3__ __:balance_scale:__
+<h6><p align="center">Matt Brassey __:balance_scale:__ Licensed under the __GPLv3__</h6>
