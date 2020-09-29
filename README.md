@@ -50,5 +50,5 @@
 ## Questions
 
 ---
-
+![License](/src/img/lic.svg)
 ##### Licensed under the __GPLv3__ license
