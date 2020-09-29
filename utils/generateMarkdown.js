@@ -44,7 +44,7 @@ Contact me at [${projectData.contact}](mailto:${projectData.contact}) with any q
 
 ---
 
-<h4><p align="center">Licensed under the ${projectData.license} :balance_scale: ${projectData.authorName}</h4>
+<h4><p align="center">Published under the ${projectData.license} :balance_scale: ${projectData.authorName}</h4>
 
 `;
 }
