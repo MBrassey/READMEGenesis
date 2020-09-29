@@ -1,4 +1,4 @@
-## READMEGenesis
+## READMEGenesis :scroll:
 
 Menu driven command line utility written in Node.js to generate a professional README for new GitHub repositories.
 
