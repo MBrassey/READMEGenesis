@@ -177,6 +177,12 @@ const promptUser = (readmeData) => {
                 choices: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"],
                 when: ({ issues }) => issues,
             },
+            {
+                type: "list",
+                name: "license",
+                message: "Under which license are you publishing the project?",
+                choices: ["Apache License 2.0", "GNU General Public License v3.0", "MIT License", "BSD 2-Clause Simplified License", "BSD 3-Clause Revised License", "Boost Software License", "Creative Commons Zero v1.0 Universal", "Eclipse Public License 2.0", "GNU Affero General Public License", "GNU General Public License v2.0", "GNU Lesser General Public License v2.1", "Mozilla Public License 2.0", "The Unlicense"],
+            },
         ])
 };
 
