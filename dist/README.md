@@ -1,16 +1,16 @@
 
-## lala :cyclone:
+## READMEGenesis :scroll:
 
-awesome
+Menu driven command line utility written in Node.js to generate a professional README for new projects.
 
 #### Closed Issues
 
-- [x] [Wireframe App & Capture User Input](https://github.com/mbrassey/lala/issues/1)
-- [x] [Generate the README file](https://github.com/mbrassey/lala/issues/2)
-- [x] [Prompt user for more input](https://github.com/mbrassey/lala/issues/3)
-- [x] [Modify the HTML template to handle more data](https://github.com/mbrassey/lala/issues/4)
-- [x] [Generate entire README](https://github.com/mbrassey/lala/issues/5)
-- [x] [Finishing Touches](https://github.com/mbrassey/lala/issues/6)
+- [x] [Wireframe App & Capture User Input](https://github.com/MBrassey/READMEGenesis/issues/1)
+- [x] [Generate the README file](https://github.com/MBrassey/READMEGenesis/issues/2)
+- [x] [Prompt user for more input](https://github.com/MBrassey/READMEGenesis/issues/3)
+- [x] [Modify the HTML template to handle more data](https://github.com/MBrassey/READMEGenesis/issues/4)
+- [x] [Generate entire README](https://github.com/MBrassey/READMEGenesis/issues/5)
+- [x] [Finishing Touches](https://github.com/MBrassey/READMEGenesis/issues/6)
 
 #### Table of Contents
 
@@ -29,16 +29,16 @@ awesome
 
     npm i
 
-<h6><p align="right">:cyclone: Click the image(s) below to view the live <a href="https://mbrassey.github.io/lala/">webapplication</a></p></h6>
+<h6><p align="right">:cyclone: Click the image(s) below to view the live <a href="https://MBrassey.github.io/READMEGenesis/">webapplication</a></p></h6>
 
-    do thing one -- do thing two
+    Usage: node index.js [ -h | -v | -l | -a ]
 
-[<p align="center"><img src="src/img/Preview.png">](https://mbrassey.github.io/lala/)
+[<p align="center"><img src="src/img/Preview.png">](https://MBrassey.github.io/READMEGenesis/)
 
 #### Questions
-Contact me at [lala.com](mailto:lala.com) with any questions or comments. 
+Contact me at [matt@brassey.io](mailto:matt@brassey.io) with any questions or comments. 
 
 ---
 
-<h4><p align="center">Published under the Apache License 2.0 :balance_scale: matt brassey</h4>
+<h4><p align="center">Published under the GNU General Public License v3.0 :balance_scale: Matt Brassey</h4>
 

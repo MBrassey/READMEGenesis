@@ -187,10 +187,24 @@ const promptUser = (readmeData) => {
 };
 
 
-// function to write README file
-//function writeToFile(fileName, data) {
-//}
+// Display Argument Data
+if (arg === "-h") {
+    console.log(`
+    Usage: node index.js [ -h | -v | -l | -a ]
 
+    [options]
+
+    -h          Display this message.
+    -v          Show version.
+    -l          Show license info.
+    -a          What is READMEGenesis?
+`);} else if (arg === "-v") {
+    console.log("READMEGenesis Version: " + version);
+} else if (arg === "-l") {
+    console.log("Licensed under the GNU General Public License v3.0");
+} else if (arg === "-a") {
+    console.log("Menu driven command line utility written in Node.js to generate a professional README for new projects.");
+} else {
 // Initialize the App
 function init() {
     promptUser()
@@ -208,6 +222,7 @@ function init() {
 }
 
 init();
+}
 
 // App Wireframe
 
