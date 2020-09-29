@@ -14,8 +14,62 @@ const promptUser = (readmeData) => {
         .prompt([
             {
                 type: "input",
+                name: "authorName",
+                message: "Enter your name:",
+                validate: (name) => {
+                    if (name) {
+                        return true;
+                    } else {
+                        console.log("Enter your name!");
+                        return false;
+                    }
+                },
+            },
+            {
+                type: "input",
+                name: "gitHub",
+                message: "Enter your GitHub username:",
+                validate: (username) => {
+                    if (username) {
+                        return true;
+                    } else {
+                        console.log("Enter your GitHub username!");
+                        return false;
+                    }
+                },
+            },
+            {
+                type: "input",
                 name: "projectTitle",
-                message: "Enter Project Title:",
+                message: "Enter project title:",
+                validate: (title) => {
+                    if (title) {
+                        return true;
+                    } else {
+                        console.log("Enter a title for the project!");
+                        return false;
+                    }
+                },
+            },
+            {
+                type: "confirm",
+                name: "emojiyn",
+                message: "Include emoji icon?",
+                default: false,
+            },
+            {
+                type: "input",
+                name: "emoji",
+                message: "Provide one emoji (:emoji-name:):",
+                when: ({ emojiyn }) => emojiyn,
+                validate: (emojiInput) => {
+                    if (emojiInput) {
+                        return true;
+                    } else {
+                        console.log("Enter an emoji for the project!");
+                        return false;
+                    }
+                },
             },
             {
                 type: "input",
@@ -25,7 +79,7 @@ const promptUser = (readmeData) => {
                     if (titleInput) {
                         return true;
                     } else {
-                        console.log("Enter a description for the Project!");
+                        console.log("Enter a description for the project!");
                         return false;
                     }
                 },
@@ -83,13 +137,13 @@ const promptUser = (readmeData) => {
                 name: "screenshot2",
                 message: "Would you like to enter another screenshot?",
                 default: false,
-                when: ({ screenshot }) => screenshot,
+                when: ({ screenshotURL }) => screenshotURL,
             },
             {
                 type: "input",
                 name: "screenshot2URL",
                 message: "Provide screenshot #2's URL:",
-                when: ({ usage }) => usage,
+                when: ({ screenshot2 }) => screenshot2,
             },
             {
                 type: "input",
