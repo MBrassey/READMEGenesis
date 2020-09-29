@@ -2,6 +2,8 @@
 
 Menu driven command line utility written in Node.js to generate a professional README for new GitHub repositories.
 
+#### Closed Issues
+
 - [x] [Wireframe App & Capture User Input](https://github.com/MBrassey/READMEGenesis/issues/1)
 - [x] [Generate the README file](https://github.com/MBrassey/READMEGenesis/issues/2)
 - [x] [Prompt user for more input](https://github.com/MBrassey/READMEGenesis/issues/3)
