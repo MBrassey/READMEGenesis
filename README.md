@@ -51,4 +51,4 @@
 
 ---
 
-## __:balance_scale:__ Licensed under the __GPLv3__ license
+## Licensed under the __GPLv3__ __:balance_scale:__
