@@ -171,10 +171,9 @@ const promptUser = (readmeData) => {
                 default: false,
             },
             {
-                type: "list",
-                name: "numberIssues",
-                message: "How many issues are closed?",
-                choices: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"],
+                type: "input",
+                name: "issueTitles",
+                message: "Enter issue names ( separated by the pipe symbol | ):",
                 when: ({ issues }) => issues,
             },
             {
@@ -182,7 +181,7 @@ const promptUser = (readmeData) => {
                 name: "license",
                 message: "Under which license are you publishing the project?",
                 choices: ["Apache License 2.0", "GNU General Public License v3.0", "MIT License", "BSD 2-Clause Simplified License", "BSD 3-Clause Revised License", "Boost Software License", "Creative Commons Zero v1.0 Universal", "Eclipse Public License 2.0", "GNU Affero General Public License", "GNU General Public License v2.0", "GNU Lesser General Public License v2.1", "Mozilla Public License 2.0", "The Unlicense"],
-            },
+            }
         ])
 };
 
@@ -223,29 +222,3 @@ function init() {
 
 init();
 }
-
-// App Wireframe
-
-// Ask Order:
-// Project Title
-// Project Description
-// Languages
-// Requirements [Leave Blank to Exclude]
-// Installation Instructions  [Leave Blank to Exclude]
-// Usage Instructions [Leave Blank to Exclude]
-// Screenshot Location [Leave Blank to Exclude]
-// E-mail Address for Questions Section
-// Table of Contents [Y/n]
-// Issues [Y/n]
-
-// Display Order:
-// # Project Title
-// > Project Description
-// [x] Issues
-// Table of Contents [Requirements, Installation, Usage, Screenshot(s), Questions (static), License (static) ]
-// ### Requirements * Items
-// Divider w/ Link to Webapp
-// [tab] Usage Information
-// Image(s) w/ Link to Webapp
-// Questions Section w/ E-mail Address
-// License
