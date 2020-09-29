@@ -1,10 +1,11 @@
 const inquirer = require("inquirer");
-//const { writetoFile, copyFile } = require("./utils/generate-readme.js");
+const { generateMarkdown, writeFile } = require("./utils/generateMarkdown.js");
 //const generatePage = require("./src/readme-template");
 const arg = process.argv[2];
 const version = "0.0.1";
 
 const promptUser = (readmeData) => {
+        readmeData = [];
 
     console.log(`
     [ README Generator ]
@@ -82,6 +83,7 @@ const promptUser = (readmeData) => {
                 name: "screenshot2",
                 message: "Would you like to enter another screenshot?",
                 default: false,
+                when: ({ screenshot }) => screenshot,
             },
             {
                 type: "input",
@@ -114,6 +116,12 @@ const promptUser = (readmeData) => {
                 message: "Include list of the projects issues?",
                 default: false,
             },
+            {
+                type: "confirm",
+                name: "another",
+                message: "Would you like to configure another README.md?",
+                default: false,
+            },
         ])
 };
 
@@ -127,7 +135,15 @@ function init() {
     promptUser()
     .then((readmeData) => {
         console.log(readmeData);
+        return generateMarkdown(readmeData);
     })
+    .then((markdown) => {
+        console.log(markdown);
+        //return writeFile(markdown);
+    })
+    .catch((err) => {
+        console.log(err);
+    });
 }
 
 // function call to initialize program
