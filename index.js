@@ -105,7 +105,7 @@ const promptUser = (readmeData) => {
             {
                 type: "input",
                 name: "installationInstructions",
-                message: "Provide installation instructions:",
+                message: "Provide installation instructions ( , for new line ):",
                 when: ({ installation }) => installation,
             },
             {
@@ -117,7 +117,7 @@ const promptUser = (readmeData) => {
             {
                 type: "input",
                 name: "usageInstructions",
-                message: "Provide usage instructions:",
+                message: "Provide usage instructions ( , for new line ):",
                 when: ({ usage }) => usage,
             },
             {
@@ -173,7 +173,7 @@ const promptUser = (readmeData) => {
             {
                 type: "input",
                 name: "issueTitles",
-                message: "Enter issue names ( separated by the pipe symbol | ):",
+                message: "Enter issue names ( separated by , ):",
                 when: ({ issues }) => issues,
             },
             {
