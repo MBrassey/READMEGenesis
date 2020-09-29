@@ -116,6 +116,12 @@ const promptUser = (readmeData) => {
                 message: "Include list of the projects issues?",
                 default: false,
             },
+            {
+                type: "input",
+                name: "numberIssues",
+                message: "How many issues does the project have?",
+                when: ({ issues }) => issues,
+            }
         ])
 };
 
