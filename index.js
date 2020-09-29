@@ -40,7 +40,7 @@ const promptUser = (readmeData) => {
                 type: "checkbox",
                 name: "requirements",
                 message: "Check any requirements or dependencies from the list:",
-                choices: ["HTML", "CSS", "JavaScript", "ES6", "jQuery", "Express", "Bootstrap", "Node", "React", "Web3", "Solidity", "Bash", "Python", "AutoIt", "PowerShell"],
+                choices: ["node", "npm", "react", "Ganache"],
             },
             {
                 type: "confirm",
@@ -127,10 +127,10 @@ const promptUser = (readmeData) => {
 
 
 // function to write README file
-function writeToFile(fileName, data) {
-}
+//function writeToFile(fileName, data) {
+//}
 
-// function to initialize program
+// Initialize the App
 function init() {
     promptUser()
     .then((readmeData) => {
@@ -146,9 +146,7 @@ function init() {
     });
 }
 
-// function call to initialize program
 init();
-
 
 // App Wireframe
 
