@@ -48,4 +48,4 @@ Contact me at [matt@brassey.io](mailto:matt@brassey.io) with any questions or co
 
 ---
 
-<h4><p align="center">Matt Brassey :balance_scale: Licensed under the GPLv3</h4>
+<h4><p align="center">Licensed under the GPLv3 :balance_scale: Matt Brassey</h4>
