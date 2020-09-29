@@ -49,6 +49,6 @@
 
 ## Questions
 
-## License
+---
 
 Licensed under the GPLv3 license.
