@@ -49,6 +49,6 @@
 
 ## Questions
 
-======
+---
 
 ### Licensed under __GPLv3__ __:balance_scale:__
