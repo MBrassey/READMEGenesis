@@ -1,15 +1,3 @@
-// # Project Title
-// > Project Description
-// [x] Issues
-// Table of Contents [Requirements, Installation, Usage, Screenshot(s), Questions (static), License (static) ]
-// ### Requirements * Items
-// Divider w/ Link to Webapp
-// [tab] Usage Information
-// Image(s) w/ Link to Webapp
-// Questions Section w/ E-mail Address
-// License
-
-
 ## READMEGenesis
 
 > Menu driven command line utility written in Node.js to generate a professional README for new GitHub repositories.
