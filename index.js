@@ -199,8 +199,8 @@ function init() {
         return generateMarkdown(readmeData);
     })
     .then((markdown) => {
-        console.log(markdown);
-        //return writeFile(markdown);
+        //console.log(markdown);
+        return writeFile(markdown);
     })
     .catch((err) => {
         console.log(err);
