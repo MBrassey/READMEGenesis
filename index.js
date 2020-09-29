@@ -116,12 +116,6 @@ const promptUser = (readmeData) => {
                 message: "Include list of the projects issues?",
                 default: false,
             },
-            {
-                type: "confirm",
-                name: "another",
-                message: "Would you like to configure another README.md?",
-                default: false,
-            },
         ])
 };
 
