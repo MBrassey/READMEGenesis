@@ -9,7 +9,7 @@
 - [x] [Generate entire README](https://github.com/MBrassey/READMEGenesis/issues/5)
 - [x] [Finishing Touches](https://github.com/MBrassey/READMEGenesis/issues/6)
 
-## Table of Contents
+#### Table of Contents
 
 * [Requirements](#requirements)
 * [Installation](#installation)
@@ -18,9 +18,9 @@
 * [Questions](#questions)
 * [License](#license)
 
-## Requirements
+#### Requirements
 
-## Installation
+#### Installation
 
 <h6><p align="right">:cyclone: Click the image(s) below to view the live <a href="https://MBrassey.github.io/READMEGenesis/">webapplication</a></p></h6>
 
@@ -35,8 +35,8 @@
 
 [<p align="center"><img src="src/img/Preview.png">](https://MBrassey.github.io/READMEGenesis/)
 
-## Questions
+#### Questions
 
 ---
 
-### Licensed under the __GPLv3__ __:balance_scale:__
+#### Licensed under the __GPLv3__ __:balance_scale:__
