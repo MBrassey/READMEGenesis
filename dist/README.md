@@ -8,7 +8,7 @@ Menu driven command line utility written in Node.js to generate a professional R
 
 #### Issues
 
-- [x] [Generate Basic README File](https://github.com/MBrassey/READMEGenesis/issues/1)
+    - [x] [Generate Basic README File](https://github.com/MBrassey/READMEGenesis/issues/1)
 - [x] [Add Logic & Prompt for More Info](https://github.com/MBrassey/READMEGenesis/issues/2)
 - [x] [Enhance README Template for Variable Content](https://github.com/MBrassey/READMEGenesis/issues/3)
 - [x] [Generate Entire README](https://github.com/MBrassey/READMEGenesis/issues/4)
@@ -29,7 +29,8 @@ Menu driven command line utility written in Node.js to generate a professional R
 
 #### Requirements
 
-    node,npm
+    node
+    npm
 
 
 
@@ -46,8 +47,6 @@ Menu driven command line utility written in Node.js to generate a professional R
 
 <h6><p align="right">:cyclone: Click the image(s) below to view the live <a href="https://MBrassey.github.io/READMEGenesis/">webapplication</a></p></h6>
 
-
-[<p align="center"><img src="../img/Preview.png">](https://MBrassey.github.io/READMEGenesis/)
 
 
 

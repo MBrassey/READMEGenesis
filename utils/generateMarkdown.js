@@ -44,10 +44,13 @@ const variableRequirements = requirements => {
   if (!requirements) {
     return '';
   }
+  var str3 = requirements + '';
+  var presentRequirements = str3.split(",").join("\n"+"    ");
+
 return `
 #### Requirements
 
-    ${requirements}
+    ${presentRequirements}
 `
 }
 
@@ -82,7 +85,7 @@ issueLines.push("- [x] ["+ issue[i] +"](https://github.com/"+ data.gitHub +"/"+ 
 return `
 #### Issues
 
-${presentIssues}
+    ${presentIssues}
 
 `
 }
