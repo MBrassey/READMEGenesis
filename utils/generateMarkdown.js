@@ -22,10 +22,12 @@ const variableUsage = usageInstructions => {
   if (!usageInstructions) {
     return '';
   }
+  var str5 = usageInstructions + '';
+  var presentUsageInstructions = str5.split(",").join("\n"+"    ");
 return `
 #### Usage
 
-    ${usageInstructions}
+    ${presentUsageInstructions}
 `
 }
 
@@ -33,10 +35,12 @@ const variableInstallation = installationInstructions => {
   if (!installationInstructions) {
     return '';
   }
+  var str4 = installationInstructions + '';
+  var presentInstallationInstructions = str4.split(",").join("\n"+"    ");
 return `
 #### Installation
 
-    ${installationInstructions}
+    ${presentInstallationInstructions}
 `
 }
 

@@ -42,7 +42,14 @@ Menu driven command line utility written in Node.js to generate a professional R
 
 #### Usage
 
-    node index.js
+    Usage: node app.js [ -h | -v | -l | -a ]
+     
+    [options]
+     
+           -h          Display this message.
+           -v          Show version.
+           -l          Show license info.
+           -a          What is READMEGenesis?
 
 
 <h6><p align="right">:cyclone: Click the image(s) below to view the live <a href="https://MBrassey.github.io/READMEGenesis/">webapplication</a></p></h6>

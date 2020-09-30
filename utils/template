@@ -1,2 +1,10 @@
 Wireframe App & Capture User Input,Generate Basic README File,Add Logic & Prompt for More Info,Enhance README Template for Variable Content,Generate Entire README,Finishing Touches
 Menu driven command line utility written in Node.js to generate a professional README for new projects.
+    Usage: node app.js [ -h | -v | -l | -a ]
+
+    [options]
+
+        -h          Display this message.
+        -v          Show version.
+        -l          Show license info.
+        -a          What is PortfolioGenerator?
