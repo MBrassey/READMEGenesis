@@ -74,7 +74,7 @@ const variableIssues = data => {
   var issue = str.split(',');
   var issueLines = [];
   for (var i = 1; i < issue.length; i++) {
-issueLines.push("- [x] ["+ issue[i] +"](https://github.com/"+ data.gitHub +"/"+ data.title +"/issues/"+ i);
+issueLines.push("- [x] ["+ issue[i] +"](https://github.com/"+ data.gitHub +"/"+ data.title +"/issues/"+ i +")");
   }
   var str2 = issueLines + '';
   var presentIssues = str2.split(",").join("\n");
