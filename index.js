@@ -1,5 +1,5 @@
 const inquirer = require("inquirer");
-const { generateMarkdown, writeFile } = require("./utils/generateMarkdown.js");
+const { generateMarkdown, writeFile } = require("./utils/generateMarkdown");
 const arg = process.argv[2];
 const version = "0.0.1";
 

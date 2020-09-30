@@ -1,5 +1,5 @@
 
-## READMEGenesis
+## READMEGenerator
 
 Menu driven command line utility written in Node.js to generate a professional README for new projects.
 
@@ -19,12 +19,12 @@ Menu driven command line utility written in Node.js to generate a professional R
 
 #### Table of Contents
 
-* [variableRequirements](#variableRequirements)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Screenshot(s)](#screenshots)
-* [Questions](#questions)
-* [License](#license)
+* [Requirements](#Requirements)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Screenshot(s)](#Screenshots)
+* [Questions](#Questions)
+* [License](#License)
 
 
 
@@ -38,13 +38,17 @@ Menu driven command line utility written in Node.js to generate a professional R
 
     npm i
 
-<h6><p align="right">:cyclone: Click the image(s) below to view the live <a href="https://MBrassey.github.io/READMEGenesis/">webapplication</a></p></h6>
+
+
+#### Usage
 
     node index.js
 
 
+<h6><p align="right">:cyclone: Click the image(s) below to view the live <a href="https://MBrassey.github.io/READMEGenerator/">webapplication</a></p></h6>
 
-[<p align="center"><img src="../img/Preview.png">](https://MBrassey.github.io/READMEGenesis/)
+
+[<p align="center"><img src="../img/Preview.png">](https://MBrassey.github.io/READMEGenerator/)
 
 
 

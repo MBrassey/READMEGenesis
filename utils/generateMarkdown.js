@@ -1,5 +1,4 @@
 const fs = require("fs");
-const { title } = require("process");
 
 const variableScreenshot1 = data => {
   if (!data.screenshotURL1) {
@@ -24,6 +23,8 @@ const variableUsage = usageInstructions => {
     return '';
   }
 return `
+#### Usage
+
     ${usageInstructions}
 `
 }
@@ -57,12 +58,12 @@ const variableToc = tOc => {
 return `
 #### Table of Contents
 
-* [variableRequirements](#variableRequirements)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Screenshot(s)](#screenshots)
-* [Questions](#questions)
-* [License](#license)
+* [Requirements](#Requirements)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Screenshot(s)](#Screenshots)
+* [Questions](#Questions)
+* [License](#License)
 `
 }
 
@@ -98,8 +99,10 @@ ${variableToc(data.tOc)}
 ${variableRequirements(data.requirements)}
 
 ${variableInstallation(data.installationInstructions)}
-<h6><p align="right">:cyclone: Click the image(s) below to view the live <a href="https://${data.gitHub}.github.io/${data.title}/">webapplication</a></p></h6>
+
 ${variableUsage(data.usageInstructions)}
+
+<h6><p align="right">:cyclone: Click the image(s) below to view the live <a href="https://${data.gitHub}.github.io/${data.title}/">webapplication</a></p></h6>
 
 ${variableScreenshot1(data)}
 
