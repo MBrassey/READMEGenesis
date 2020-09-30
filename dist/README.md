@@ -1,19 +1,19 @@
 
-## READMEGenerator
+## READMEGenesis
 
 Menu driven command line utility written in Node.js to generate a professional README for new projects.
 
 ![licensebadge](https://img.shields.io/badge/license-GPLv3.0-blue)
 
 
-#### Closed Issues
+#### Issues
 
-- [x] [Wireframe App & Capture User Input](https://github.com/username/title/issues/1)
-- [x] [Generate the README file](https://github.com/username/title/issues/2)
-- [x] [Prompt user for more input](https://github.com/username/title/issues/3)
-- [x] [Modify the HTML template to handle more data](https://github.com/username/title/issues/4)
-- [x] [Generate entire README](https://github.com/username/title/issues/5)
-- [x] [Finishing Touches](https://github.com/username/title/issues/6)
+- [x] [Generate Basic README File](https://github.com/MBrassey/READMEGenesis/issues/1
+- [x] [Add Logic & Prompt for More Info](https://github.com/MBrassey/READMEGenesis/issues/2
+- [x] [Enhance README Template for Variable Content](https://github.com/MBrassey/READMEGenesis/issues/3
+- [x] [Generate Entire README](https://github.com/MBrassey/READMEGenesis/issues/4
+- [x] [Finishing Touches](https://github.com/MBrassey/READMEGenesis/issues/5
+
 
 
 
@@ -24,7 +24,6 @@ Menu driven command line utility written in Node.js to generate a professional R
 * [Usage](#Usage)
 * [Screenshot(s)](#Screenshots)
 * [Questions](#Questions)
-* [License](#License)
 
 
 
@@ -45,10 +44,10 @@ Menu driven command line utility written in Node.js to generate a professional R
     node index.js
 
 
-<h6><p align="right">:cyclone: Click the image(s) below to view the live <a href="https://MBrassey.github.io/READMEGenerator/">webapplication</a></p></h6>
+<h6><p align="right">:cyclone: Click the image(s) below to view the live <a href="https://MBrassey.github.io/READMEGenesis/">webapplication</a></p></h6>
 
 
-[<p align="center"><img src="../img/Preview.png">](https://MBrassey.github.io/READMEGenerator/)
+[<p align="center"><img src="../img/Preview.png">](https://MBrassey.github.io/READMEGenesis/)
 
 
 

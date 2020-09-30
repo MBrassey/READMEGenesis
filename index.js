@@ -13,19 +13,6 @@ const promptUser = (readmeData) => {
         .prompt([
             {
                 type: "input",
-                name: "authorName",
-                message: "Enter your name:",
-                validate: (name) => {
-                    if (name) {
-                        return true;
-                    } else {
-                        console.log("Enter your name!");
-                        return false;
-                    }
-                },
-            },
-            {
-                type: "input",
                 name: "gitHub",
                 message: "Enter your GitHub username:",
                 validate: (username) => {

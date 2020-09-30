@@ -63,23 +63,27 @@ return `
 * [Usage](#Usage)
 * [Screenshot(s)](#Screenshots)
 * [Questions](#Questions)
-* [License](#License)
 `
 }
 
-const variableIssues = issues => {
-  if (!issues) {
+const variableIssues = data => {
+  if (!data.issueTitles) {
     return '';
   }
-return `
-#### Closed Issues
+  var str = data.issueTitles;
+  var issue = str.split(',');
+  var issueLines = [];
+  for (var i = 1; i < issue.length; i++) {
+    issueLines.push("- [x] ["+ issue[i] +"](https://github.com/"+ data.gitHub +"/"+ data.title +"/issues/"+ i);
+  }
+  var str2 = issueLines + '';
+  var presentIssues = str2.split(",").join("\n");
 
-- [x] [Wireframe App & Capture User Input](https://github.com/username/title/issues/1)
-- [x] [Generate the README file](https://github.com/username/title/issues/2)
-- [x] [Prompt user for more input](https://github.com/username/title/issues/3)
-- [x] [Modify the HTML template to handle more data](https://github.com/username/title/issues/4)
-- [x] [Generate entire README](https://github.com/username/title/issues/5)
-- [x] [Finishing Touches](https://github.com/username/title/issues/6)
+return `
+#### Issues
+
+${presentIssues}
+
 `
 }
 
@@ -92,7 +96,7 @@ ${data.description}
 
 ![licensebadge](https://img.shields.io/badge/license-${data.license}-blue)
 
-${variableIssues(data.issues)}
+${variableIssues(data)}
 
 ${variableToc(data.tOc)}
 
