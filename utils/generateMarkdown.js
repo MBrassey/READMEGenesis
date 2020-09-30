@@ -1,12 +1,11 @@
 const fs = require("fs");
-const { title } = require("process");
 
 const variableScreenshot1 = screenshotURL1 => {
   if (!screenshotURL1) {
     return '';
   }
 return `
-    ${screenshotURL1}
+[<p align="center"><img src="${screenshotURL1}">](https://${gitHub}.github.io/${title}/)
 `
 }
 
@@ -15,7 +14,7 @@ const variableScreenshot2 = screenshotURL2 => {
     return '';
   }
 return `
-    ${screenshotURL2}
+[<p align="center"><img src="${screenshotURL2}">](https://${gitHub}.github.io/${title}/)
 `
 }
 
