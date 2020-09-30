@@ -32,7 +32,7 @@ Menu driven command line utility written in Node.js to generate a professional R
 
 #### Usage
 
-    Usage: node app.js [ -h | -v | -l | -a ]
+    Usage: node index.js [ -h | -v | -l | -a ]
      
     [options]
      
