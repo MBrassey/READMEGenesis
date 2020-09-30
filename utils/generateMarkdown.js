@@ -1,13 +1,44 @@
 const fs = require("fs");
 
-const tableofContents = tOc => {
-    if (!tOc) {
-      return '';
-    }
+const variableUsage = usageInstructions => {
+  if (!usageInstructions) {
+    return '';
+  }
+return `
+    ${usageInstructions}
+`
+}
+
+const variableInstallation = installationInstructions => {
+  if (!installationInstructions) {
+    return '';
+  }
+return `
+#### Installation
+
+    ${installationInstructions}
+`
+}
+
+const variableRequirements = requirements => {
+  if (!requirements) {
+    return '';
+  }
+return `
+#### Requirements
+
+    ${requirements}
+`
+}
+
+const variableToc = tOc => {
+  if (!tOc) {
+    return '';
+  }
 return `
 #### Table of Contents
 
-* [Requirements](#requirements)
+* [variableRequirements](#variableRequirements)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Screenshot(s)](#screenshots)
@@ -16,10 +47,10 @@ return `
 `
 }
 
-const closedIssues = issues => {
-    if (!issues) {
-      return '';
-    }
+const variableIssues = issues => {
+  if (!issues) {
+    return '';
+  }
 return `
 #### Closed Issues
 
@@ -41,9 +72,15 @@ ${data.description}
 
 ![licensebadge](https://img.shields.io/badge/license-${data.license}-blue)
 
-${closedIssues(data.issues)}
+${variableIssues(data.issues)}
 
-${tableofContents(data.tOc)}
+${variableToc(data.tOc)}
+
+${variableRequirements(data.requirements)}
+
+${variableInstallation(data.installationInstructions)}
+
+${variableUsage(data.usageInstructions)}
 
 `;
 }

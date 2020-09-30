@@ -1,9 +1,9 @@
 
-## READMEGenesis
+## mattiscool
 
-Menu driven command line utility written in Node.js to generate a professional README for new projects.
+cool
 
-![licensebadge](https://img.shields.io/badge/license-GPLv3.0-blue)
+![licensebadge](https://img.shields.io/badge/license-Apache2.0-blue)
 
 
 #### Closed Issues
@@ -19,11 +19,27 @@ Menu driven command line utility written in Node.js to generate a professional R
 
 #### Table of Contents
 
-* [Requirements](#requirements)
+* [variableRequirements](#variableRequirements)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Screenshot(s)](#screenshots)
 * [Questions](#questions)
 * [License](#license)
+
+
+
+#### Requirements
+
+    node,npm
+
+
+
+#### Installation
+
+    npm i
+
+
+
+    node index.js
 
 
