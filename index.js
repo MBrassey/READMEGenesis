@@ -107,7 +107,7 @@ const promptUser = (readmeData) => {
             },
             {
                 type: "input",
-                name: "screenshotURL",
+                name: "screenshotURL1",
                 message: "Provide media URL:",
                 when: ({ screenshot }) => screenshot,
             },
@@ -116,12 +116,12 @@ const promptUser = (readmeData) => {
                 name: "screenshot2",
                 message: "Would you like to enter another screenshot?",
                 default: false,
-                when: ({ screenshotURL }) => screenshotURL,
+                when: ({ screenshotURL1 }) => screenshotURL1,
             },
             {
                 type: "input",
-                name: "screenshot2URL",
-                message: "Provide screenshot #2's URL:",
+                name: "screenshotURL2",
+                message: "Provide media URL:",
                 when: ({ screenshot2 }) => screenshot2,
             },
             {

@@ -1,20 +1,21 @@
 const fs = require("fs");
+const { title } = require("process");
 
-const variableScreenshot1 = screenshotURL1 => {
-  if (!screenshotURL1) {
+const variableScreenshot1 = data => {
+  if (!data.screenshotURL1) {
     return '';
   }
 return `
-[<p align="center"><img src="${screenshotURL1}">](https://${gitHub}.github.io/${title}/)
+[<p align="center"><img src="${data.screenshotURL1}">](https://${data.gitHub}.github.io/${data.title}/)
 `
 }
 
-const variableScreenshot2 = screenshotURL2 => {
-  if (!screenshotURL2) {
+const variableScreenshot2 = data => {
+  if (!data.screenshotURL2) {
     return '';
   }
 return `
-[<p align="center"><img src="${screenshotURL2}">](https://${gitHub}.github.io/${title}/)
+[<p align="center"><img src="${data.screenshotURL2}">](https://${data.gitHub}.github.io/${data.title}/)
 `
 }
 
@@ -98,9 +99,9 @@ ${variableRequirements(data.requirements)}
 
 ${variableInstallation(data.installationInstructions)}
 <h6><p align="right">:cyclone: Click the image(s) below to view the live <a href="https://${data.gitHub}.github.io/${data.title}/">webapplication</a></p></h6>
-${variableScreenshot1(data.screenshotURL1)}
+${variableScreenshot1(data)}
 
-${variableScreenshot2(data.screenshotURL2)}
+${variableScreenshot2(data)}
 
 ${variableUsage(data.usageInstructions)}
 
