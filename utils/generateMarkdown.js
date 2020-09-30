@@ -34,16 +34,17 @@ const closedIssues = issues => {
 
 // Generate Markdown for README
 function generateMarkdown(data) {
-    return `## ${data.title}
-    ![licensebadge](https://img.shields.io/badge/license-${data.license}-blue)
+return `
+## ${data.title}
+![licensebadge](https://img.shields.io/badge/license-${data.license}-blue)
     
-    ${data.description}
+${data.description}
 
-    ${closedIssues(data.issues)}
+${closedIssues(data.issues)}
 
-    ${tableofContents(data.tOc)}
+${tableofContents(data.tOc)}
 
-  `;
+`;
 }
 
 // Write the File to Disk

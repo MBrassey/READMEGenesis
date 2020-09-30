@@ -1,9 +1,10 @@
-## READMEGenesis
-    ![licensebadge](https://img.shields.io/badge/license-GPLv3.0-blue)
-    
-    Menu driven command line utility written in Node.js to generate a professional README for new projects.
 
+## READMEGenesis
+![licensebadge](https://img.shields.io/badge/license-GPLv3.0-blue)
     
+Menu driven command line utility written in Node.js to generate a professional README for new projects.
+
+
     #### Closed Issues
 
     - [x] [Wireframe App & Capture User Input](https://github.com/username/title/issues/1)
@@ -14,7 +15,7 @@
     - [x] [Finishing Touches](https://github.com/username/title/issues/6)
     
 
-    
+
     #### Table of Contents
 
     * [Requirements](#requirements)
@@ -25,4 +26,3 @@
     * [License](#license)
     
 
-  
