@@ -1,6 +1,24 @@
 const fs = require("fs");
 const { title } = require("process");
 
+const variableScreenshot1 = screenshotURL1 => {
+  if (!screenshotURL1) {
+    return '';
+  }
+return `
+    ${screenshotURL1}
+`
+}
+
+const variableScreenshot2 = screenshotURL2 => {
+  if (!screenshotURL2) {
+    return '';
+  }
+return `
+    ${screenshotURL2}
+`
+}
+
 const variableUsage = usageInstructions => {
   if (!usageInstructions) {
     return '';
@@ -81,6 +99,10 @@ ${variableRequirements(data.requirements)}
 
 ${variableInstallation(data.installationInstructions)}
 <h6><p align="right">:cyclone: Click the image(s) below to view the live <a href="https://${data.gitHub}.github.io/${data.title}/">webapplication</a></p></h6>
+${variableScreenshot1(data.screenshotURL1)}
+
+${variableScreenshot2(data.screenshotURL2)}
+
 ${variableUsage(data.usageInstructions)}
 
 #### Questions
