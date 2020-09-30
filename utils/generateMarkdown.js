@@ -85,7 +85,7 @@ issueLines.push("- [x] ["+ issue[i] +"](https://github.com/"+ data.gitHub +"/"+ 
 return `
 #### Issues
 
-    ${presentIssues}
+${presentIssues}
 
 `
 }
