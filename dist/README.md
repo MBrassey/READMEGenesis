@@ -1,9 +1,9 @@
 
-## mattiscool
+## READMEGenesis
 
-cool
+Menu driven command line utility written in Node.js to generate a professional README for new projects.
 
-![licensebadge](https://img.shields.io/badge/license-Apache2.0-blue)
+![licensebadge](https://img.shields.io/badge/license-GPLv3.0-blue)
 
 
 #### Closed Issues
@@ -38,7 +38,7 @@ cool
 
     npm i
 
-
+<h6><p align="right">:cyclone: Click the image(s) below to view the live <a href="https://MBrassey.github.io/READMEGenesis/">webapplication</a></p></h6>
 
     node index.js
 

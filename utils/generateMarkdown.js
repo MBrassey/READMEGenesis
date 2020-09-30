@@ -1,4 +1,5 @@
 const fs = require("fs");
+const { title } = require("process");
 
 const variableUsage = usageInstructions => {
   if (!usageInstructions) {
@@ -79,7 +80,7 @@ ${variableToc(data.tOc)}
 ${variableRequirements(data.requirements)}
 
 ${variableInstallation(data.installationInstructions)}
-
+<h6><p align="right">:cyclone: Click the image(s) below to view the live <a href="https://${data.gitHub}.github.io/${data.title}/">webapplication</a></p></h6>
 ${variableUsage(data.usageInstructions)}
 
 `;
