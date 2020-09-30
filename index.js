@@ -1,6 +1,5 @@
 const inquirer = require("inquirer");
 const { generateMarkdown, writeFile } = require("./utils/generateMarkdown.js");
-//const generatePage = require("./src/readme-template");
 const arg = process.argv[2];
 const version = "0.0.1";
 
@@ -40,7 +39,7 @@ const promptUser = (readmeData) => {
             },
             {
                 type: "input",
-                name: "projectTitle",
+                name: "title",
                 message: "Enter project title:",
                 validate: (title) => {
                     if (title) {
@@ -73,7 +72,7 @@ const promptUser = (readmeData) => {
             },
             {
                 type: "input",
-                name: "projectDescription",
+                name: "description",
                 message: "Provide a description of the project:",
                 validate: (titleInput) => {
                     if (titleInput) {
@@ -160,7 +159,7 @@ const promptUser = (readmeData) => {
             },
             {
                 type: "confirm",
-                name: "tableofContents",
+                name: "tOc",
                 message: "Include table of contents?",
                 default: false,
             },
@@ -180,7 +179,7 @@ const promptUser = (readmeData) => {
                 type: "list",
                 name: "license",
                 message: "Under which license are you publishing the project?",
-                choices: ["Apache License 2.0", "GNU General Public License v3.0", "MIT License", "BSD 2-Clause Simplified License", "BSD 3-Clause Revised License", "Boost Software License", "Creative Commons Zero v1.0 Universal", "Eclipse Public License 2.0", "GNU Affero General Public License", "GNU General Public License v2.0", "GNU Lesser General Public License v2.1", "Mozilla Public License 2.0", "The Unlicense"],
+                choices: ["Apache2.0", "GPLv3.0", "MIT", "BSD2", "BSD3", "Boost", "CreativeCommons", "Eclipse2.0", "AGPL", "GPLv2.0", "LGPLv2.1", "Mozilla2.0", "TheUnlicense"],
             }
         ])
 };
