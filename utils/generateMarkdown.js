@@ -35,7 +35,7 @@ return `
 // Generate Markdown for README
 function generateMarkdown(data) {
 return `
-## ${data.title} <p align="right"><img src="https://img.shields.io/badge/license-${data.license}-blue">](https://mbrassey.github.io/awesome/)
+## ${data.title} <p align="right"><img src="https://img.shields.io/badge/license-${data.license}-blue">
     
 ${data.description}
 
