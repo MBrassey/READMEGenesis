@@ -5,24 +5,24 @@
 Menu driven command line utility written in Node.js to generate a professional README for new projects.
 
 
-    #### Closed Issues
+#### Closed Issues
 
-    - [x] [Wireframe App & Capture User Input](https://github.com/username/title/issues/1)
-    - [x] [Generate the README file](https://github.com/username/title/issues/2)
-    - [x] [Prompt user for more input](https://github.com/username/title/issues/3)
-    - [x] [Modify the HTML template to handle more data](https://github.com/username/title/issues/4)
-    - [x] [Generate entire README](https://github.com/username/title/issues/5)
-    - [x] [Finishing Touches](https://github.com/username/title/issues/6)
-    
+- [x] [Wireframe App & Capture User Input](https://github.com/username/title/issues/1)
+- [x] [Generate the README file](https://github.com/username/title/issues/2)
+- [x] [Prompt user for more input](https://github.com/username/title/issues/3)
+- [x] [Modify the HTML template to handle more data](https://github.com/username/title/issues/4)
+- [x] [Generate entire README](https://github.com/username/title/issues/5)
+- [x] [Finishing Touches](https://github.com/username/title/issues/6)
 
 
-    #### Table of Contents
 
-    * [Requirements](#requirements)
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Screenshot(s)](#screenshots)
-    * [Questions](#questions)
-    * [License](#license)
-    
+#### Table of Contents
+
+* [Requirements](#requirements)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Screenshot(s)](#screenshots)
+* [Questions](#questions)
+* [License](#license)
+
 
