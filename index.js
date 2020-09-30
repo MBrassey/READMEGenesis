@@ -51,26 +51,6 @@ const promptUser = (readmeData) => {
                 },
             },
             {
-                type: "confirm",
-                name: "emojiyn",
-                message: "Include emoji icon?",
-                default: false,
-            },
-            {
-                type: "input",
-                name: "emoji",
-                message: "Provide one emoji (:emoji-name:):",
-                when: ({ emojiyn }) => emojiyn,
-                validate: (emojiInput) => {
-                    if (emojiInput) {
-                        return true;
-                    } else {
-                        console.log("Enter an emoji for the project!");
-                        return false;
-                    }
-                },
-            },
-            {
                 type: "input",
                 name: "description",
                 message: "Provide a description of the project:",
