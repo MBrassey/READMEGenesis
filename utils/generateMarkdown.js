@@ -147,7 +147,7 @@ ${variableInstallation(data.installationInstructions)}
 
 ${variableUsage(data.usageInstructions)}
 
-<h6><p align="right">:cyclone: Click the image(s) below to view the live <a href="https://${data.gitHub}.github.io/${data.title}/">webapplication</a></p></h6>
+<h6><p align="right">:cyclone: Click the image(s) below to view the live <a  id="Screenshots" href="https://${data.gitHub}.github.io/${data.title}/">webapplication</a></p></h6>
 
 ${variableScreenshot1(data)}
 

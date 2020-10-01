@@ -53,7 +53,7 @@ Menu driven command line utility written in Node.js to generate a professional R
            -a          What is READMEGenesis?
 
 
-<h6><p align="right">:cyclone: Click the image(s) below to view the live <a href="https://MBrassey.github.io/READMEGenesis/">webapplication</a></p></h6>
+<h6><p align="right">:cyclone: Click the image(s) below to view the live <a  id="Screenshots" href="https://MBrassey.github.io/READMEGenesis/">webapplication</a></p></h6>
 
 
 [<p align="center"><img src="../img/Preview.png">](https://MBrassey.github.io/READMEGenesis/)
