@@ -157,7 +157,7 @@ ${variableScreenshot2(data)}
 Contact me at [${data.contact}](mailto:${data.contact}) with any questions or comments. 
 
 #### License
-${data.title} is published under the ${data.license} license.
+${data.title} is published under the __${data.license}__ license.
 
 ${licenseDetail(data.license)}
 `;
