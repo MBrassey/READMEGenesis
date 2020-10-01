@@ -44,7 +44,7 @@ Menu driven command line utility written in Node.js to generate a professional R
 
 <h6><p align="right">:cyclone: Click the image(s) below to view the live <a href="https://MBrassey.github.io/READMEGenesis/">webapplication</a></p></h6>
 
-[<img src="img/Preview.gif">](https://MBrassey.github.io/READMEGenesis/)
+[<img id="Screenshots" src="img/Preview.gif">](https://MBrassey.github.io/READMEGenesis/)
 
 #### Questions
 Contact me at [matt@brassey.io](mailto:matt@brassey.io) with any questions or comments.
