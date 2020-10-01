@@ -103,6 +103,7 @@ return `
 * [Usage](#Usage)
 * [Screenshot(s)](#Screenshots)
 * [Questions](#Questions)
+* [License](#License)
 `
 }
 
