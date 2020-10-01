@@ -24,6 +24,7 @@ Menu driven command line utility written in Node.js to generate a professional R
 * [Usage](#Usage)
 * [Screenshot(s)](#Screenshots)
 * [Questions](#Questions)
+* [License](#License)
 
 
 
