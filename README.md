@@ -50,6 +50,6 @@ Menu driven command line utility written in Node.js to generate a professional R
 Contact me at [matt@brassey.io](mailto:matt@brassey.io) with any questions or comments.
 
 #### License
-READMEGenesis is published under the __CC0_1.0_Universal__ license.
+`READMEGenesis` is published under the __CC0_1.0_Universal__ license.
 
 > The Creative Commons CC0 Public Domain Dedication waives copyright interest in a work you've created and dedicates it to the world-wide public domain. Use CC0 to opt out of copyright entirely and ensure your work has the widest reach. As with the Unlicense and typical software licenses, CC0 disclaims warranties. CC0 is very similar to the Unlicense.
