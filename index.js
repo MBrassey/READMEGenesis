@@ -151,7 +151,6 @@ const promptUser = (readmeData) => {
         ])
 };
 
-
 // Display Argument Data
 if (arg === "-h") {
     console.log(`
