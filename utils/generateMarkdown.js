@@ -13,7 +13,7 @@ const licenseDetail = license => {
   } else if (license === "Boost") {
     return '> A simple permissive license only requiring preservation of copyright and license notices for source (and not binary) distribution. Licensed works, modifications, and larger works may be distributed under different terms and without source code.';
   } else if (license === "CC0_1.0_Universal") {
-    return '> The Creative Commons CC0 Public Domain Dedication waives copyright interest in a work you,ve created and dedicates it to the world-wide public domain. Use CC0 to opt out of copyright entirely and ensure your work has the widest reach. As with the Unlicense and typical software licenses, CC0 disclaims warranties. CC0 is very similar to the Unlicense.';
+    return '> The Creative Commons CC0 Public Domain Dedication waives copyright interest in a work you\'ve created and dedicates it to the world-wide public domain. Use CC0 to opt out of copyright entirely and ensure your work has the widest reach. As with the Unlicense and typical software licenses, CC0 disclaims warranties. CC0 is very similar to the Unlicense.';
   } else if (license === "Eclipse2.0") {
     return '> This commercially-friendly copyleft license provides the ability to commercially license binaries; a modern royalty-free patent license grant; and the ability for linked works to use other licenses, including commercial ones.';
   } else if (license === "AGPL") {
