@@ -146,7 +146,7 @@ const promptUser = (readmeData) => {
                 type: "list",
                 name: "license",
                 message: "Under which license are you publishing the project?",
-                choices: ["Apache2.0", "GPLv3.0", "MIT", "BSD2", "BSD3", "Boost", "CC0-1.0-Universal", "Eclipse2.0", "AGPL", "GPLv2.0", "LGPLv2.1", "Mozilla2.0", "TheUnlicense"],
+                choices: ["Apache2.0", "GPLv3.0", "MIT", "BSD2", "BSD3", "Boost", "CC0_1.0_Universal", "Eclipse2.0", "AGPL", "GPLv2.0", "LGPLv2.1", "Mozilla2.0", "TheUnlicense"],
             }
         ])
 };
