@@ -1,5 +1,4 @@
 const fs = require("fs");
-// "Apache2.0", "GPLv3.0", "MIT", "BSD2", "BSD3", "Boost", "CreativeCommonsZero", "Eclipse2.0", "AGPL", "GPLv2.0", "LGPLv2.1", "Mozilla2.0", "TheUnlicense"
 const licenseDetail = license => {
   if (license === "Apache2.0") {
     return '> A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.';
@@ -13,7 +12,7 @@ const licenseDetail = license => {
     return '> A permissive license similar to the BSD 2-Clause License, but with a 3rd clause that prohibits others from using the name of the project or its contributors to promote derived products without written consent.';
   } else if (license === "Boost") {
     return '> A simple permissive license only requiring preservation of copyright and license notices for source (and not binary) distribution. Licensed works, modifications, and larger works may be distributed under different terms and without source code.';
-  } else if (license === "CreativeCommonsZero") {
+  } else if (license === "CC0-1.0-Universal") {
     return '> The Creative Commons CC0 Public Domain Dedication waives copyright interest in a work you,ve created and dedicates it to the world-wide public domain. Use CC0 to opt out of copyright entirely and ensure your work has the widest reach. As with the Unlicense and typical software licenses, CC0 disclaims warranties. CC0 is very similar to the Unlicense.';
   } else if (license === "Eclipse2.0") {
     return '> This commercially-friendly copyleft license provides the ability to commercially license binaries; a modern royalty-free patent license grant; and the ability for linked works to use other licenses, including commercial ones.';
